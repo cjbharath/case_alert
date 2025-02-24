@@ -10,7 +10,7 @@ TWILIO_PHONE_NUMBER = "+17014078299"
 YOUR_PHONE_NUMBER = "+919443589239"
 
 # Your case number to check
-YOUR_CASE_NUMBER = "WP.6725/2025"
+YOUR_CASE_NUMBER = "WP.5263/2025"
 
 def send_sms(message):
     client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
