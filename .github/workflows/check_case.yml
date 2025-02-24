@@ -2,7 +2,7 @@ name: Case Alert Bot
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Runs every 5 minutes
+    - cron: '*/1 * * * *'  # Runs every 1 minutes
 
 jobs:
   run-script:
