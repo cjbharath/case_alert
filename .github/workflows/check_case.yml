@@ -13,8 +13,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.12'
+          python-version: '3.x'
       - name: Install dependencies
         run: pip install requests beautifulsoup4 twilio
       - name: Run script
-        run: python path/to/case_alert.py
+        run: python case_alert.py
